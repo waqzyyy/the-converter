@@ -17,7 +17,7 @@ MAX_FILE_SIZE = 15 * 1024 * 1024
 MAX_PIXELS = 25_000_000
 
 CHARS = "@%&#*+=-:. "
-WATERMARK = "by areabomb"
+WATERMARK = "ВСТАВЬ_СЮДА_ВОДЯНОЙ_ЗНАК"
 
 dp = Dispatcher()
 semaphore = asyncio.Semaphore(2)
